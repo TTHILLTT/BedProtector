@@ -1,0 +1,60 @@
+Symbol range map extraction starting
+Processing 1 files
+processing com\TTHILLTT\Bedprotector\BedProtectorMod.java
+Class Start: BedProtectorMod
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|777|781|init|method|BedProtectorMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|782|804|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|805|810|event|param|BedProtectorMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|822|836|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|837|846|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|847|855|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|860|875|BedEventHandler|class|BedProtectorMod.BedEventHandler
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Class Start: BedProtectorMod.BedEventHandler
+      @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|949|960|tickCounter|field|BedProtectorMod.BedEventHandler|tickCounter|
+      Method Start: onPlayerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1011|1023|onPlayerTick|method|BedProtectorMod.BedEventHandler|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1024|1039|PlayerTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1040|1045|event|param|BedProtectorMod.BedEventHandler|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1065|1070|event|param|BedProtectorMod.BedEventHandler|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1071|1076|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1080|1095|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1096|1101|START|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|START
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1124|1135|tickCounter|field|BedProtectorMod.BedEventHandler|tickCounter
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1155|1166|tickCounter|field|BedProtectorMod.BedEventHandler|tickCounter
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1209|1221|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1231|1236|event|param|BedProtectorMod.BedEventHandler|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1237|1243|player|field|net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent|player
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1257|1262|World|class|net.minecraft.world.World
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1278|1286|worldObj|field|net.minecraft.entity.Entity|worldObj
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1365|1373|BlockPos|class|net.minecraft.util.BlockPos
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1390|1398|BlockPos|class|net.minecraft.util.BlockPos
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1406|1410|posX|field|net.minecraft.entity.Entity|posX
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1419|1423|posY|field|net.minecraft.entity.Entity|posY
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1432|1436|posZ|field|net.minecraft.entity.Entity|posZ
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1612|1620|BlockPos|class|net.minecraft.util.BlockPos
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1642|1645|add|method|net.minecraft.util.BlockPos|add|(III)Lnet/minecraft/util/BlockPos;
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1690|1703|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1714|1722|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|1736|1744|BlockBed|class|net.minecraft.block.BlockBed
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2056|2064|BlockPos|class|net.minecraft.util.BlockPos
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2078|2086|BlockPos|class|net.minecraft.util.BlockPos
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2094|2098|posX|field|net.minecraft.entity.Entity|posX
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2107|2111|posY|field|net.minecraft.entity.Entity|posY
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2120|2124|posZ|field|net.minecraft.entity.Entity|posZ
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2389|2402|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2410|2413|add|method|net.minecraft.util.BlockPos|add|(III)Lnet/minecraft/util/BlockPos;
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2456|2462|Blocks|class|net.minecraft.init.Blocks
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2463|2471|obsidian|field|net.minecraft.init.Blocks|obsidian
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2472|2487|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2557|2570|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2578|2581|add|method|net.minecraft.util.BlockPos|add|(III)Lnet/minecraft/util/BlockPos;
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2624|2630|Blocks|class|net.minecraft.init.Blocks
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2631|2639|obsidian|field|net.minecraft.init.Blocks|obsidian
+         @|com\TTHILLTT\Bedprotector\BedProtectorMod.java|2640|2655|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      Method End: onPlayerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
+   Class End  : BedProtectorMod.BedEventHandler
+Class End  : BedProtectorMod
+endProcessing com\TTHILLTT\Bedprotector\BedProtectorMod.java
+
